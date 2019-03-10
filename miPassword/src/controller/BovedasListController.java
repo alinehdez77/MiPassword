@@ -46,6 +46,7 @@ public class BovedasListController implements Initializable {
   @Override
   public void initialize(URL url, ResourceBundle rb) {
     // TODO
+    listaBovedas.getItems().addAll("Redes Sociales", "Cuentas Bancarias", "Tiendas OnLine");
   }  
   
 }
